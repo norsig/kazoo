@@ -31,7 +31,6 @@
                   ,?CACHE_ARGS(?KAZOO_DATA_PLAN_CACHE, ?DP_CACHE_PROPS)
                   ,?SUPER('kazoo_data_link_sup')
                   ,?WORKER('kz_data_tracing')
-                  ,?WORKER('kz_data_maint_listener')
                   ]).
 
 %% ===================================================================
